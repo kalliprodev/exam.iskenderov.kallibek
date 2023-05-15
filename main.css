@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+*, 
+*::before , 
+*::after {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(10, 10, 61);
+}
+
+
+.container{
+    background-color:white ;
+    padding: 20%;
+    margin: 20%;
+    gap: 20px;
+   }
+
+
+.container .navbar {
+    display:block;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    /* padding: 100px 100px 100px 100px; */
+    /* gap: 20px; */
+    
+   }
+   
+.container .navbaration {
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content:space-between;
+    
+    
+
+}
+   .navbar[data-clicks="0"]{
+    background-image: url(https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=400);
+    background-position: center;
+    background-repeat: cover;
+    width: 500px;
+    height: 500px;
+   }
+   
+   .navbar[data-clicks="1"]{
+    background-image: url(https://images.pexels.com/photos/1687147/pexels-photo-1687147.jpeg?auto=compress&cs=tinysrgb&w=400) ;
+    background-position: center;
+    background-repeat: cover;
+    width: 500px;
+    height: 500px;
+}
+.navbar[data-clicks="2"]{
+    background-image: url(https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=400);
+    background-position: center;
+    background-repeat: cover;
+    width: 500px;
+    height: 500px;
+
+}
+
+
+
+    .btn[data-clicks="0"]{
+        background-image: url(https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=400) ;
+        width: 350px;
+        height: 350px;
+        background-position: center;
+    background-repeat: cover;
+    }
+
+
+    .btn[data-clicks="1"]{
+        background-image: url(https://images.pexels.com/photos/1687147/pexels-photo-1687147.jpeg?auto=compress&cs=tinysrgb&w=400) ;
+        width: 350px;
+        height: 350px;
+        background-position: center;
+    background-repeat: cover;
+    }
+
+
+    .btn[data-clicks="2"]{
+        background-image: url(https://images.pexels.com/photos/1805053/pexels-photo-1805053.jpeg?auto=compress&cs=tinysrgb&w=400) ;
+        background-position: center;
+    background-repeat: cover;
+        width: 350px;
+        height: 350px;
+    }
+
